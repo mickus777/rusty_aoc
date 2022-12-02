@@ -10,6 +10,7 @@ fn main() {
     let file_name = &args[3];
     match task_no {
         1 => aoc::task01::execute(input, file_name),
+        2 => aoc::task02::execute(input, file_name),
         _ => println!("Unknown task"),
     }
 }
