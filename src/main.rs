@@ -11,6 +11,7 @@ fn main() {
     match task_no {
         1 => aoc::task01::execute(input, file_name),
         2 => aoc::task02::execute(input, file_name),
+        3 => aoc::task03::execute(input, file_name),
         _ => println!("Unknown task"),
     }
 }
