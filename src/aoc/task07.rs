@@ -77,10 +77,6 @@ fn parse_lines<'a>(lines : io::Lines<io::BufReader<File>>) -> DeviceFolder {
     root
 }
 
-struct FolderSize {
-    size : u64
-}
-
 fn get_folder_sizes(folder : &DeviceFolder) -> Vec<u64> {
     let mut size = 0;
 
