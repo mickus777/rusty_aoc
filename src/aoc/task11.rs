@@ -71,8 +71,8 @@ pub fn execute(input : &String, _file_name: &String) {
     let mode: usize = input.parse().unwrap();
 
     let mut monkeys : Vec<MonkeyData>;
-    let mut limit = 0;
-    let mut rounds = 0;
+    let limit;
+    let rounds;
     if mode % 2 == 1 {
         monkeys = create_mode1();
         limit = 96577;
