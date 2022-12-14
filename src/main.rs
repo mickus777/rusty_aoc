@@ -22,6 +22,7 @@ fn main() {
         11 => aoc::task11::execute(input, file_name),
         12 => aoc::task12::execute(input, file_name),
         13 => aoc::task13::execute(input, file_name),
+        14 => aoc::task14::execute(input, file_name),
         _ => println!("Unknown task"),
     }
 }
